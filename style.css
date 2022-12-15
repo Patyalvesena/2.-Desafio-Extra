@@ -29,21 +29,10 @@ body {
     justify-content: center;
     background-color: var(--background-color);
     width: available;
-    height: 79.0rem;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
-
-/*.wave {
-    background-image: url(./img/Wave.svg);
-    background-size: auto;
-    background-repeat: no-repeat;
-
-    width: 1399rem;
-    height: 10.4rem;
-    margin: 0;
-    padding: 0;
-}*/
 
 header img {
     width: 35.0rem;
@@ -102,8 +91,13 @@ ul {
 }
 
 .wave {
-    width: 1366;
-    
+    margin: 0;
+}
+
+.wave img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
